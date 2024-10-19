@@ -1,0 +1,35 @@
+{
+   "addition": [
+      { "num1": 2, "operator": "+", "num2": 3, "expectedResult": "5", "testcase":"Verify addition for two integer numbers"},
+      { "num1": -1, "operator": "+", "num2": 4, "expectedResult": "3", "testcase":"Verify addition for one negative and one positive numbers" },
+      { "num1": -8, "operator": "+", "num2": -9, "expectedResult": "-17", "testcase":"Verify addition for two negative numbers"},
+      { "num1": 2.5, "operator": "+", "num2": 1.5, "expectedResult": "4", "testcase":"Verify addition for two decimal numbers"},
+      { "num1": 34, "operator": "+", "num2": 176, "expectedResult": "210", "testcase":"Verify addition for more than one digit numbers" },
+      { "num1": 0, "operator": "+", "num2": 2, "expectedResult": "2", "testcase":"Verify addition with Zero" }
+    ],
+    "subtraction": [
+      { "num1": 9, "operator": "-", "num2": 4, "expectedResult": "5", "testcase":"Verify subtraction for two integer numbers" },
+      { "num1": -5, "operator": "-", "num2": 3, "expectedResult": "-8", "testcase":"Verify subtraction for one negative and one positive numbers" },
+      { "num1": -1, "operator": "-", "num2": -2, "expectedResult": "-3", "testcase":"Verify subtraction for two negative numbers" },
+      { "num1": 6.1, "operator": "-", "num2": 3.7, "expectedResult": "2.4", "testcase":"Verify subtraction for two decimal numbers" },
+      { "num1":78, "operator": "-", "num2": 951, "expectedResult": "-873", "testcase":"Verify subtraction for more than one digit numbers"},
+      { "num1":0, "operator": "-", "num2": 5, "expectedResult": "-5", "testcase":"Verify subtraction with Zero"  }
+    ],
+    "multiplication": [
+      { "num1": 7, "operator": "*", "num2": 5, "expectedResult": "35", "testcase":"Verify multiplication for two integer numbers" },
+      { "num1": -3, "operator": "*", "num2": 2, "expectedResult": "-6", "testcase":"Verify multiplication for one negative and one positive numbers" },
+      { "num1": -4, "operator": "*", "num2": -11, "expectedResult": "44", "testcase":"Verify multiplication for two negative numbers" },
+      { "num1": 8.9, "operator": "*", "num2": 2.3, "expectedResult": "20.47", "testcase":"Verify multiplication for two decimal numbers"  },
+      { "num1": 5431, "operator": "*", "num2": 164, "expectedResult": "890684", "testcase":"Verify multiplication for more than one digit numbers" },
+      { "num1": 0, "operator": "*", "num2": 234, "expectedResult": "0", "testcase":"Verify multiplication with Zero" }
+    ],
+    "division": [
+      { "num1": 8, "operator": "/", "num2": 2, "expectedResult": "4", "testcase":"Verify division for two integer numbers"},
+      { "num1": -6, "operator": "/", "num2": 3, "expectedResult": "-2", "testcase":"Verify division for one negative and one positive numbers"  },
+      { "num1": -9, "operator": "/", "num2": -3, "expectedResult": "3", "testcase":"Verify division for two negative numbers" },
+      { "num1": 4.8, "operator": "/", "num2": 1.3, "expectedResult": "3.69230769231" , "testcase":"Verify division for two decimal numbers"},
+      { "num1": 0, "operator": "/", "num2": 8, "expectedResult": "0", "testcase":"Verify division of Zero returns Zero" },
+      { "num1": 1, "operator": "/", "num2": 0, "expectedResult": "Infinity", "testcase":"Verify division by Zero returns Infinity"}
+    ]
+  }
+  
